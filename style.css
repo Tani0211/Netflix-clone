@@ -123,6 +123,52 @@ nav img {
     font-size: 16px;
 }
 
-.trend h1{
+.trend {
+    width: 80%;
+    margin: auto;
+}
+
+.trend h2 {
+    color: white;
+    margin: 40px 0px 20px;
+}
+
+.trend .movies {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    gap: 50px;
+}
+
+.trend .num {
+    color: white;
+    font-size: 102px;
+    font-weight: 900;
+    font-family: 'Martel Sans', sans-serif;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 2px white;
+    position: absolute;
+    z-index: 10;
+    bottom: -38px;
+    left: -28px;
+}
+
+.trend .card {
+    position: relative;
+}
+
+.trend img {
+    border-radius: 10px;
+}
+
+.trend button {
+    text-align: center;
+    height: 130px;
+    padding: 10px;
+    border: 1px;
+    border-radius: 8px;
+    background-color: #534e4e69;
     color: white;
 }
